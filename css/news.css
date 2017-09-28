@@ -1,0 +1,59 @@
+ #menu ul li:nth-of-type(4){
+	background-color: #1c723d;
+}
+ 
+ .pList .nDate{
+	position: absolute;
+	top:14px;
+	left:10%;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	z-index: 2;
+	background-color: rgba(122,122,122,0.5);
+}
+.nDate h4{
+	font-size: 26px;
+	color: #fff;
+	font-weight: normal;
+	margin-top: 8px;
+}
+.nDate p{
+	font-size: 14px;
+	color:#ccc;
+	margin-top: 8px;
+}
+.nP h4{
+	color:#000;
+	font-size: 17px;
+}
+.pList li:hover .nP h4{
+	color:#67ad5b;
+}
+.nP p{
+	color:#999;
+	font-size: 14px;
+}
+.nImg{
+	overflow: hidden;
+	transition: all 500ms ease;
+}
+a{
+	cursor: auto;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.pContent .pTop a{
+    	font-size: 12px;
+    }
+}
+@media only screen and (max-width:768px ) {
+	.nP p{
+		width: 86%;
+	}
+	.pList .nDate{
+		left:15%;
+	}
+}
+.pImg{
+	cursor: pointer;
+}

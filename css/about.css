@@ -1,0 +1,19 @@
+ #menu ul li:nth-of-type(6){
+	background-color: #1c723d;
+}
+.pList .col-sm-6{
+	text-indent: 2em;
+	line-height: 30px;
+	font-size: 15px;
+}
+.pList{
+	padding-bottom: 50px;
+}
+.pList .col-sm-5{
+	cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+	.img-responsive{
+		margin:0 auto;
+	}
+}

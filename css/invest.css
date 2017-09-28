@@ -1,0 +1,12 @@
+#menu ul li:nth-of-type(5){
+	background-color: #1c723d;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.pContent .pTop a{
+    	font-size: 12px;
+    }
+}
+.pList{
+	font-size: 16px;
+	line-height: 35px;
+}

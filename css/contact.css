@@ -1,0 +1,16 @@
+#menu ul li:nth-of-type(7){
+	background-color: #1c723d;
+}
+.pList ul li{
+	padding-top: 10px;
+}
+.pList ul li .p p{
+	color:#333;
+	font-size: 14px;
+}
+.pList li:hover .p h4{
+	color:#67ad5b;
+}
+.pList li:hover .p p{
+	color:#67ad5b;
+}

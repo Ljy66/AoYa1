@@ -1,0 +1,247 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#header{
+	width: 100%;
+	height: 142px;
+}
+#header>.img{
+	width: 200px;
+	margin:0 auto;
+	text-align: center;
+}
+.navwrap{
+	width:100%;
+	height: 50px;
+	position:absolute;
+	top:142px;
+	left:0;
+	z-index: 999;
+}
+#nav{
+	width:100%;
+	height: 50px;
+	background-color: #67ad5b;
+}
+#nav>#navbar{
+	height: 50px;
+	width: 880px;
+	margin:0 auto;
+}
+#nav>#navbar>ul>li{
+	float:left;
+	list-style: none;
+	width: 110px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#nav>#navbar>ul>li>a{
+	text-decoration: none;
+	color:#fff;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+#nav>#navbar>ul>li:hover{
+	background-color: #1c723d;
+}
+#footer{
+	width: 100%;
+	height: 362px;
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top: 50px;
+}
+#footer>.wrap{
+	width: 1200px;
+	height: 240px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content:;
+	display: block;
+	clear:both;
+}
+.clearfix{
+	*zoom: 1;
+}
+#footer>.wrap>ul>li{
+	float:left;
+	height: 242px;
+    list-style: none;
+    width: 150px;
+    line-height: 30px;
+	border-right: 1px solid #4b4b4b;
+	text-align: center;
+}
+#footer>.wrap>ul>li:nth-of-type(4){
+	width: 320px;
+	color:#fff;
+	margin: 0 auto;
+}
+#footer>.wrap>ul>li:nth-of-type(4) p{
+	width: 260px;
+	line-height: 30px;
+	text-align:left;
+	padding-left:25px;
+	margin: 0 auto;
+	margin-bottom:28px;
+	cursor: pointer;
+}
+#footer>.wrap>ul>li:nth-of-type(4) p:nth-of-type(1){
+	background: url(../img/footer-icon1.png) no-repeat 0 0;
+}
+#footer>.wrap>ul>li:nth-of-type(4) p:nth-of-type(2){
+	background: url(../img/footer-icon2.png) no-repeat 0 10px;
+}
+#footer>.wrap>ul>li:nth-of-type(4) p:nth-of-type(3){
+	background: url(../img/footer-icon3.png) no-repeat 0 10px;
+}
+#footer>.wrap>ul>li:nth-of-type(5){
+	width: 300px;
+	color:#fff;
+	border-right: none;
+}
+#footer>.wrap>ul>li:nth-of-type(5) form{
+	width: 300px;
+	text-align: left;
+	margin:0 auto;
+	
+}
+#footer>.wrap>ul>li form .name{
+	font-size: 18px;
+	padding-left:5px;
+	width:200px;
+	height:30px;
+	margin-bottom:5px;
+	border:none;
+	outline: none;
+	background-color: transparent;
+	color: #999999;
+	cursor: pointer;
+} 
+#footer>.wrap>ul>li form .txt{
+	font-size: 18px;
+	padding: 5px;
+	border:none;
+	outline: none;
+	background-color: transparent;
+	color: #999999;
+	cursor: pointer;
+}
+#footer>.wrap>ul>li form .submit{
+	font-size: 18px;
+	width: 100px;
+	height: 40px;
+	padding: 5px;
+	text-align:left;
+	line-height: 40px;
+	border:none;
+	outline: none;
+	background-color: transparent;
+	color: #999999;
+	cursor: pointer;
+}
+#footer>.wrap>ul>li form{
+	padding:5px;
+	width:200px;
+}
+#footer>.wrap>ul>li>h4{
+	color:#fff;
+	cursor: pointer;
+}
+#footer>.wrap>ul>li>p>a{
+	text-decoration: none;
+	text-align: center;
+	color:#5c5c5c;
+	cursor: pointer;
+}
+#footer>.fwrap{
+	/*width: 980px;*/
+	height: 70px;
+	margin:0 auto;
+	margin-left:100px;
+	line-height: 70px;
+	margin-top: 20px;
+	padding-top: 22px;
+	border-top: 1px solid #4b4b4b;
+	padding-bottom: 22px;
+}
+#footer>.fwrap>ol{
+	width: 200px;
+	height: 25px;
+	float: left;
+}
+#footer>.fwrap>ol>li{
+	float: left;
+	height: 25px;
+	width: 25px;
+	margin: 5px;
+	list-style: none;
+}
+#footer>.fwrap>.right{
+	float:right;
+	color:#5c5c5c;
+	cursor: pointer;
+	font-size: 14px;
+}
+.side{
+	width: 60px;
+	height: 220px;
+	position: fixed;
+	right:0;
+	top:50%;
+	margin-top: -110px;
+	background-color: #67ad5b;
+}
+.side>div{
+	width: 60px;
+	height: 55px;
+	position: relative;
+}
+.side>div:hover{
+	background-color: #1c723d;
+}
+.side>div>.sLeft{
+	position: absolute;
+	top:0;
+	right:60px;
+	background-color:#1c723d;
+	width: 120px;
+	text-align: center;
+	display: none;
+}
+.side>div>.sLeft a{
+	color:#fff;
+	white-space: nowrap;
+	display: block;
+	height: 55px;
+	line-height: 55px;
+}
+.side>div>.sRight{
+	position: absolute;
+	top:0;
+	left:0;
+	text-align: center;
+	width: 60px;
+	height: 55px;
+	line-height: 55px;
+	padding-top: 5px;
+	text-align: center;
+}
+.side>.box3>.sLeft>img{
+	width: 80px;
+	height: 80px;
+}
+
+
